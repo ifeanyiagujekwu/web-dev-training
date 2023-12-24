@@ -1,0 +1,287 @@
+@media (max-width: 700px) {
+  body {
+    background-color: #f7fdfc;
+  }
+
+  .container {
+    width: 90%;
+    margin: 10% auto;
+  }
+
+  .container .container-1 .head {
+    font-size: 30px;
+    foont-family: brown;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .container .container-1 .second-head {
+    font-size: 16px;
+    font-weight: 300;
+    color: #737373;
+    margin: 5% 0%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .container .container-2 {
+    margin: 30px auto;
+    padding: 5% 5%;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  }
+
+  .container .container-2 form label {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .container .container-2 form .line-1 div{
+    display: flex;
+    flex-direction: column;
+    font-family: Sofia Pro;
+  }
+
+  .container .container-2 form .line-2 div{
+    display: flex;
+    flex-direction: column;
+    font-family: Sofia Pro;
+  }
+
+  .container .container-2 form .line-3 div{
+    display: flex;
+    flex-direction: column;
+    font-family: Sofia Pro;
+  }
+
+  .container .container-2 form .line-4 div{
+    display: flex;
+    flex-direction: column;
+    font-family: Sofia Pro;
+  }
+
+  .container .container-2 form {
+    display: flex;
+    flex-direction: column;
+    font-family: Sofia Pro;
+  }
+
+  input[type="text"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin-bottom: 5%;
+    border-color: #737373;
+  }
+
+  input[type="url"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin-bottom: 5%;
+    background-image: url("./calendar.svg");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-color: #737373;
+  }
+
+  input[type="number"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin-bottom: 5%;
+    border-color: #737373;
+  }
+
+  input[type="password"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin-bottom: 5%;
+    background-image: url("./show.svg");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-color: #737373;
+  }
+
+  .container .container-2 form select {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin-bottom: 5%;
+    border-color: #737373;
+  }
+
+  .container .container-2 form button {
+    color: #fff;
+    background-color: #2ec4b6;
+    padding: 5% 0%;
+    border: 1px;
+    border-color: #737373;
+  }
+
+  .container footer {
+    background-color: #f7fdfc;
+    width: 100%;
+    text-align: center;
+  }
+
+  .container footer .green {
+    color: #2ec4b6;
+  }
+}
+
+@media (min-width: 701px) {
+  body {
+    background-color: #f7fdfc;
+  }
+
+  .container {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+  }
+  .container .container-1 .head {
+    font-size: 30px;
+    font-weight: 700;
+    foont-family: brown;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .container .container-1{
+    width: 50%;
+    margin-bottom: 15%;
+  }
+
+  .container .container-1 .second-head {
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    font-family: "Montserrat", sans-serif;
+    width: 70%;
+    margin: 5% 0%;
+  }
+
+  div .container-2{
+    background-color: #fff;
+    padding: 10% 10%;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.1);
+  }
+
+  div .container-2 form .line-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  div .container-2 form .line-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    margin: 5% auto;
+  }
+
+  div .container-2 form .line-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  div .container-2 form .line-4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    margin: 5% auto;
+  }
+
+  input[type="text"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin: 5% 0%;
+    border-color: #737373;
+    width: 100%;
+  }
+
+  input[type="url"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin: 5% 0%;
+    margin-bottom: 5%;
+    background-image: url("./calendar.svg");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-color: #737373;
+    width: 100%;
+  }
+
+  input[type="number"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin: 5% 0%;
+    margin-bottom: 5%;
+    border-color: #737373;
+    width: 100%;
+  }
+
+  input[type="password"] {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin: 5% 0%;
+    margin-bottom: 5%;
+    background-image: url("./show.svg");
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border-color: #737373;
+    width: 100%;
+  }
+
+  .container .container-2 form select {
+    border-radius: 2px;
+    border: 0.01px solid;
+    height: 30px;
+    margin: 5% 0%;
+    margin-bottom: 5%;
+    border-color: #737373;
+    width: 150px;
+  }
+
+  .container .container-2 form button {
+    color: #fff;
+    background-color: #2ec4b6;
+    padding: 5% 0%;
+    border: 1px;
+    border-color: #737373;
+    width: 80%;
+    margin: 0% 10%;
+    
+  }
+
+  .container footer {
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20%;
+    padding-bottom: 10%;
+    border-radius: 5px;
+    box-shadow: 2px 3px  2px rgba(4, 8, 19, 0.1);
+  }
+
+  .container footer .green {
+    text-decoration: underline;
+    color: #2ec4b6;
+  }
+
+}
